@@ -1,14 +1,18 @@
 import React from "react";
+import "./Image.css";
 import svg from "../../images/sphynx-cat.svg";
 import svg2 from "../../images/american-wirehair-cat.svg";
 import svg3 from "../../images/cornish-rex-cat.svg";
+import svg4 from "../../images/bengal-cat.svg";
+import svg5 from "../../images/ocicat.svg";
+import svg6 from "../../images/chausie-cat.svg";
 
-const imagesArr = [svg, svg2, svg3];
+const imagesArr = [svg, svg2, svg3, svg4, svg5, svg6];
 
 class Image extends React.Component {
   state = {
     image: imagesArr[this.randomize(imagesArr.length - 1)],
-    duration: `${Math.random() * (4 + 1)}s`,
+    duration: `${Math.random() * (5 + 1)}s`,
   };
 
   randomize(max) {

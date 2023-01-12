@@ -45,6 +45,11 @@ class App extends React.Component {
               X={this.state.X}
               Y={this.state.Y}
             />
+            <Image
+              mouseMoving={this.state.mouseMoving}
+              X={this.state.X}
+              Y={this.state.Y}
+            />
           </div>
         </section>
       </>

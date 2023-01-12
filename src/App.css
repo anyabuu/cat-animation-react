@@ -42,12 +42,3 @@
   position: relative;
 }
 
-/*.image-wrapper {*/
-/*  position: relative;*/
-/*}*/
-
-.image {
-  width: 100px;
-  height: 100px;
-  transition-timing-function: ease;
-}
